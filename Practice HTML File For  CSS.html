@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive CSS Testing Page</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Arial&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        /* Sample CSS rules to demonstrate various properties */
+
+        /* CSS Introduction */
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation */
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            cursor: pointer;
+        }
+
+        /* Header */
+        header {
+            background: url('header-background.jpg') center center/cover no-repeat;
+            height: 300px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        /* Typography */
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+            color: #555;
+        }
+
+        /* Links */
+        a {
+            color: purple;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: darkviolet;
+        }
+
+        a:visited {
+            color: mediumslateblue;
+        }
+
+        /* Buttons */
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Images */
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 5px;
+        }
+
+        /* Forms */
+        .form-container {
+            background-color: #f9f9f9;
+            padding: 1.5rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-container input:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        /* Lists */
+        ul.custom-list {
+            list-style-type: square;
+            padding-left: 1.5rem;
+        }
+
+        ol.custom-list {
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Cards */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: calc(33.333% - 1rem);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .card-body {
+            padding: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Modal */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Responsive Grid */
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 1rem);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+
+        /* Additional Elements for Testing */
+        .hidden {
+            display: none;
+        }
+
+        .first-child {
+            font-weight: bold;
+        }
+
+        .last-child {
+            font-style: italic;
+        }
+
+        /* Pseudo-classes and pseudo-elements */
+        a::first-letter {
+            color: red;
+        }
+
+        li:nth-child(odd) {
+            background-color: #fafafa;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animated {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* CSS Variables */
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #333;
+            --font-stack: 'Roboto', sans-serif;
+        }
+
+        .variable-example {
+            color: var(--primary-color);
+            font-family: var(--font-stack);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about" class="active">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p class="variable-example">We are committed to delivering the best services to our clients.</p>
+            <a href="https://www.example.com" target="_blank">Visit our website</a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="service1.jpg" alt="Service 1">
+                    <div class="card-body">
+                        <h3>Service One</h3>
+                        <p>Details about service one.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="service2.jpg" alt="Service 2">
+                    <div class="card-body">
+                        <h3>Service Two</h3>
+                        <p>Details about service two.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="service3.jpg" alt="Service 3">
+                    <div class="card-body">
+                        <h3>Service Three</h3>
+                        <p>Details about service three.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <div class="gallery-grid">
+                <img src="gallery1.jpg" alt="Gallery Image 1">
+                <img src="gallery2.jpg" alt="Gallery Image 2">
+                <img src="gallery3.jpg" alt="Gallery Image 3">
+                <img src="gallery4.jpg" alt="Gallery Image 4">
+                <img src="gallery5.jpg" alt="Gallery Image 5">
+                <img src="gallery6.jpg" alt="Gallery Image 6">
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Table Section -->
+        <section id="pricing">
+            <h2>Pricing Plans</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Price</th>
+                        <th>Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>$9.99/month</td>
+                        <td>Feature A, Feature B</td>
+                    </tr>
+                    <tr>
+                        <td>Standard</td>
+                        <td>$19.99/month</td>
+                        <td>Feature A, Feature B, Feature C</td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>$29.99/month</td>
+                        <td>Feature A, Feature B, Feature C, Feature D</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="custom-list">
+                <li>What is your return policy?</li>
+                <li>How do I track my order?</li>
+                <li>Can I purchase items again?</li>
+            </ul>
+        </section>
+
+        <!-- Icons Section -->
+        <section id="social">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" class="icon facebook" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" class="icon twitter" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" class="icon instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Hidden Element -->
+        <div class="hidden">
+            <p>This content is hidden and can be revealed using CSS.</p>
+        </div>
+
+        <!-- Lists with Multiple Classes -->
+        <ul class="custom-list active">
+            <li class="first-child">First Item</li>
+            <li>Second Item</li>
+            <li class="last-child">Last Item</li>
+        </ul>
+
+        <!-- Responsive Layout Example -->
+        <div class="responsive-container">
+            <div class="sidebar">
+                <h3>Sidebar</h3>
+                <ul>
+                    <li><a href="#">Link One</a></li>
+                    <li><a href="#">Link Two</a></li>
+                    <li><a href="#">Link Three</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h3>Main Content</h3>
+                <p>This is the main content area. It adjusts based on the screen size.</p>
+            </div>
+        </div>
+
+        <!-- Modal Trigger -->
+        <button class="btn" id="openModal">Open Modal</button>
+
+        <!-- Modal Structure -->
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <button class="close-modal" id="closeModal">&times;</button>
+                <h2>Modal Title</h2>
+                <p>This is a modal dialog with some content.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- JavaScript for Modal Functionality -->
+    <script>
+        const openModal = document.getElementById('openModal');
+        const modal = document.getElementById('myModal');
+        const closeModal = document.getElementById('closeModal');
+
+        openModal.addEventListener('click', () => {
+            modal.style.display = 'flex';
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target == modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
