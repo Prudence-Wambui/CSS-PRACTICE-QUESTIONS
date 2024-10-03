@@ -1,0 +1,496 @@
+/* What is CSS, and how does it enhance web design? ✨ */
+/* Write a simple CSS rule that changes the background color of the body to light blue. 💙 */
+/* Explain the importance of CSS in responsive web design. 📱 */
+/* Create a CSS rule to set the font family of all paragraphs to Arial. ✍️ */
+/* How can CSS be used to improve website loading times? ⏳ */
+/* Write a CSS rule to center a heading both horizontally and vertically. 🎯 */
+/* Describe how CSS separates content from presentation. 📖 */
+/* Write a CSS rule to change the text color of all links to purple. 💜 */
+/* What are the benefits of using external CSS stylesheets? 📂 */
+/* Write a CSS rule that applies a border to all images. 🖼️ */
+/* Explain the role of CSS preprocessors and give an example. 🧩 */
+/* Write a CSS rule to make all buttons have rounded corners. 🔘 */
+/* What is the impact of CSS on accessibility in web development? ♿ */
+/* Create a CSS rule that increases the line height of paragraphs to 1.5. 📏 */
+/* Write a CSS rule to hide elements with the class .hidden. 🚫 */
+/* Describe the relationship between HTML and CSS. 💖 */
+/* Write a CSS rule that sets a specific font size for all headings. 🔤 */
+/* What are some common CSS methodologies, and how do they benefit large projects? 🏗️ */
+/* Create a CSS rule that changes the cursor to a pointer when hovering over links. 🖱️ */
+/* Explain how CSS can be used to create animations. 🎨 */
+/* Write a CSS rule that targets all <h1> elements. 📜 */
+/* Explain the structure of a CSS rule, including selectors and declaration blocks. 📚 */
+/* Create a CSS rule that applies a 10-pixel margin to all elements. 📏 */
+/* What is the difference between class selectors and ID selectors? Provide examples. 💁‍♀️ */
+/* Write a CSS rule using a descendant selector to style nested elements. 🐾 */
+/* Create a CSS rule that sets the background color of a specific element with an ID. 🖌️ */
+/* What are the different types of CSS selectors? List and explain. 📝 */
+/* Write a CSS rule that changes the font weight of all <strong> elements. 🔑 */
+/* Create a CSS rule that applies different styles to <li> elements within <ul> and <ol>. 🔖 */
+/* Write a CSS rule that targets elements based on their attributes. 🏷️ */
+/* How do pseudo-classes differ from pseudo-elements? Provide examples. 👩‍🎨 */
+/* Write a CSS rule using the :hover pseudo-class to change link color on hover. 🎈 */
+/* Create a CSS rule that styles the first child of a list. 👶 */
+/* Write a CSS rule that changes the style of all even-numbered table rows. 🎲 */
+/* Explain the concept of specificity in CSS selectors. 🎯 */
+/* Write a CSS rule using the :nth-child pseudo-class to style specific children. 🌈 */
+/* Create a CSS rule that changes the color of the first letter of a paragraph. 🔤 */
+/* What is the purpose of a universal selector in CSS? Provide an example. 🌍 */
+/* Write a CSS rule that applies a border only to the last child of a list. 🚪 */
+/* Create a CSS rule that targets elements based on multiple classes. 🎉 */
+/* Write a CSS rule that applies a style to all elements of a specific type (e.g., div). 🌟 */
+/* Create a CSS rule that styles elements with the class .active. 🔆 */
+/* Write a CSS rule to style an element with a specific ID. 🆔 */
+/* Explain the difference between adjacent sibling and general sibling selectors. Provide examples. 👫 */
+/* Write a CSS rule that targets all links within a specific class. 🔗 */
+/* Create a CSS rule using the :first-child pseudo-class to style the first element in a list. 🌷 */
+/* Write a CSS rule using the :last-child pseudo-class to style the last element in a list. 🌻 */
+/* Create a CSS rule that styles every third child of a parent element. 🌙 */
+/* Explain how attribute selectors work and provide an example. 💖 */
+/* Write a CSS rule that targets all <input> elements of type text. ⌨️ */
+/* Create a CSS rule using the :focus pseudo-class to style focused input fields. 🔍 */
+/* Write a CSS rule that applies a background color to all visited links. 🕶️ */
+/* Create a CSS rule that styles links differently based on their state (visited, hover, active). 🔄 */
+/* Write a CSS rule that targets all <h2> elements that are not the first child of their parent. 🐾 */
+/* Create a CSS rule using the :nth-of-type pseudo-class to style specific elements. 🎡 */
+/* Write a CSS rule that applies a style to the last element of a group. 🥇 */
+/* Create a CSS rule that targets elements with multiple classes. 🎀 */
+/* Write a CSS rule that applies styles to specific attributes, such as href in links. 📎 */
+/* Create a CSS rule that uses a negation pseudo-class to exclude certain elements from styling. ❌ */
+/* Explain how grouping selectors works and provide an example. 👯 */
+/* Write a CSS rule to change the font size of all paragraphs to 16 pixels. 📏 */
+/* Create a CSS rule that centers a block element horizontally. 🎯 */
+/* Write a CSS rule that sets a background image for the body. 🖼️ */
+/* Create a CSS rule that applies a border radius to buttons. 🔘 */
+/* Write a CSS rule that hides an element on the page. 🙈 */
+/* Create a CSS rule that adds padding to a specific element. 🛁 */
+/* Write a CSS rule that creates a simple button style. 💕 */
+/* Create a CSS rule that applies a box shadow to an element. 🌫️ */
+/* Write a CSS rule that uses Flexbox to center elements in a container. 🌀 */
+/* Create a CSS rule that applies different colors to headings based on their level. 🌈 */
+/* Write a CSS rule that adds a transition effect to hover states. 🌌 */
+/* Create a CSS rule that sets a maximum width for a container. 🏡 */
+/* Write a CSS rule to change the cursor style on hover. 🖱️ */
+/* Create a CSS rule that applies a gradient background to a header. 🌸 */
+/* Write a CSS rule that uses media queries to change styles on smaller screens. 📱 */
+/* Create a CSS rule that applies styles to form inputs and buttons. 🖊️ */
+/* Write a CSS rule that applies a custom font to the entire document. ✨ */
+/* Create a CSS rule that styles lists with custom bullet points. 🔵 */
+/* Write a CSS rule that positions an element absolutely within a parent. 📍 */
+/* Create a CSS rule that creates a responsive layout using percentages. 🏗️ */
+/* Write a comment in CSS to explain the purpose of a rule. 💬 */
+/* Create a CSS block with comments describing each property used. 🗒️ */
+/* Explain the syntax for writing comments in CSS. ✏️ */
+/* Write a CSS rule and include a comment about its importance. 🔑 */
+/* Create a CSS file with comments explaining the structure of the stylesheet. 🏗️ */
+/* Write a comment that indicates a section for media queries. 📏 */
+/* Create a CSS rule and comment on its potential impact on layout. 🌌 */
+/* Write a comment explaining the use of the !important rule. ⚠️ */
+/* Create comments in CSS for code that requires further explanation. 📚 */
+/* Write a CSS rule with comments on best practices for maintainability. 🔍 */
+/* Create a CSS file with a header comment describing its purpose. 🌟 */
+/* Write comments to indicate areas for future enhancements in a CSS file. 🔧 */
+/* Create a CSS rule with inline comments explaining each declaration. 🖊️ */
+/* Write a comment to clarify the use of vendor prefixes in CSS. 🚩 */
+/* Create a CSS stylesheet and include comments on coding standards. 📏 */
+/* Write a comment to highlight deprecated properties in a CSS file. 🚫 */
+/* Create comments in a CSS file to explain complex selectors. 🧩 */
+/* Write a comment indicating that a rule is temporary and should be removed later. ⏳ */
+/* Create a CSS rule with comments explaining the rationale behind specific values. 💡 */
+/* Write comments to document the browser compatibility of CSS properties. 🌐 */
+
+/* 💕 CSS Colors 💕 */
+/* Write a CSS rule that sets the background color of the body to a HEX value. 🎨 */
+/* Create a CSS rule that uses RGB to set the color of text. 🌈 */
+/* Write a CSS rule that applies an RGBA color to an element with transparency. 🌫️ */
+/* Create a CSS rule that sets the color of links using color keywords. 🔗 */
+/* Write a CSS rule that uses HSL to define a color for headings. 🎉 */
+/* Create a CSS rule that changes the text color of a button on hover. ✨ */
+/* Write a CSS rule that applies a color gradient as a background. 🌈 */
+/* Create a CSS rule that sets the color of a specific class to a HEX value. 🔷 */
+/* Write a CSS rule that uses multiple color stops for a linear gradient. 🌈 */
+/* Create a CSS rule that applies a contrasting text color based on background color. 🎨 */
+/* Write a CSS rule that sets the text color for all list items. 📜 */
+/* Create a CSS rule using color names for styling specific elements. 🎈 */
+/* Write a CSS rule that applies a color to a hover state for links. 💖 */
+/* Create a CSS rule that uses a color variable for theming. 🌈 */
+/* Write a CSS rule that sets the border color of an element. 🚪 */
+/* Create a CSS rule that uses the currentColor value. 🎉 */
+/* Write a CSS rule that styles an element with a background image and a color overlay. 🌸 */
+/* Create a CSS rule that changes the color of the placeholder text in an input field. 🖋️ */
+/* Write a CSS rule that applies a color based on user preference (light/dark mode). 🌗 */
+/* Create a CSS rule that sets the text color for all headings to a shade of gray. 🌫️ */
+
+/* 🌼 CSS Backgrounds 🌼 */
+/* Write a CSS rule that sets a solid color background for the body. 🌟 */
+/* Create a CSS rule that uses a background image for a specific section. 🌈 */
+/* Write a CSS rule that applies a background gradient to a header. 🎉 */
+/* Create a CSS rule that sets the background color and image for a button. 🔘 */
+/* Write a CSS rule that positions a background image at the center. 📍 */
+/* Create a CSS rule that uses multiple background images. 🎨 */
+/* Write a CSS rule that applies a linear gradient as a background. 🌈 */
+/* Create a CSS rule that sets a background image to cover the entire element. 🏞️ */
+/* Write a CSS rule that applies a fixed background image. 📷 */
+/* Create a CSS rule that uses a radial gradient for a button background. 🌈 */
+/* Write a CSS rule that changes the background color on hover for a card. 🎈 */
+/* Create a CSS rule that sets a transparent background color for a modal. 🌀 */
+/* Write a CSS rule that uses background-size to adjust the image dimensions. 📏 */
+/* Create a CSS rule that applies a repeating background image. 🔄 */
+/* Write a CSS rule that sets the background attachment to scroll. 📜 */
+/* Create a CSS rule that combines color and background image for visual effects. 🌸 */
+/* Write a CSS rule that applies a gradient overlay on a background image. 🎨 */
+/* Create a CSS rule that uses media queries to change background images for different devices. 📱 */
+/* Write a CSS rule that styles a specific section with a pattern background. 🌼 */
+/* Create a CSS rule that changes the background based on the time of day (using JavaScript). 🌞 */
+
+/* 🌸 CSS Borders 🌸 */
+/* Write a CSS rule to apply a solid border to a div element. 🛡️ */
+/* Create a CSS rule that sets the border radius for buttons. 🔘 */
+/* Write a CSS rule that applies a dashed border to images. 🖼️ */
+/* Create a CSS rule that sets different border styles for a table. 🗂️ */
+/* Write a CSS rule to create a double border around a section. 💖 */
+/* Create a CSS rule that applies a colored border to a focused input field. 🎯 */
+/* Write a CSS rule that uses shorthand notation for border properties. 📏 */
+/* Create a CSS rule that changes the border color on hover. 🌈 */
+/* Write a CSS rule that sets the border width for a specific class. 🏷️ */
+/* Create a CSS rule that uses a border image instead of a solid color. 🖼️ */
+/* Write a CSS rule that sets a border for only the top of an element. ⬆️ */
+/* Create a CSS rule that applies a border to the last child of a list. 🥇 */
+/* Write a CSS rule to remove borders from table cells. 🚫 */
+/* Create a CSS rule that sets a transparent border color. 🥺 */
+/* Write a CSS rule that combines border and box shadow for visual depth. 🌌 */
+/* Create a CSS rule that applies a rounded border to images. 🖼️ */
+/* Write a CSS rule that uses different border styles for responsive design. 📱 */
+/* Create a CSS rule that applies a border collapse to a table. 🗂️ */
+/* Write a CSS rule that sets a dotted border around a section header. 🔳 */
+/* Create a CSS rule that combines a border with padding for spacing. 🎀 */
+
+/* 🌼 CSS Margins and Padding 🌼 */
+/* Write a CSS rule that sets a margin of 20 pixels for all elements. 📏 */
+/* Create a CSS rule that applies padding of 10 pixels to a button. 🎀 */
+/* Write a CSS rule that sets different margins for top, right, bottom, and left. 🌈 */
+/* Create a CSS rule that applies equal padding to all sides of a paragraph. 📏 */
+/* Write a CSS rule that uses shorthand notation for margin properties. 🔑 */
+/* Create a CSS rule that applies negative margins to overlap elements. 🌀 */
+/* Write a CSS rule that sets padding only for the top of a container. ⬆️ */
+/* Create a CSS rule that centers an element using margin auto. 💖 */
+/* Write a CSS rule that applies a margin-bottom to headings. 📏 */
+/* Create a CSS rule that sets padding for a specific class of inputs. 🎀 */
+/* Write a CSS rule that changes margin values on hover. 🎈 */
+/* Create a CSS rule that combines padding with a background color for emphasis. 💖 */
+/* Write a CSS rule that applies a margin to a list to separate items. 📜 */
+/* Create a CSS rule that sets different padding for different screen sizes. 📱 */
+/* Write a CSS rule that sets a margin for all heading elements. 🌈 */
+/* Create a CSS rule that uses margin collapse for adjacent elements. 👫 */
+/* Write a CSS rule that applies padding to an image within a container. 🖼️ */
+/* Create a CSS rule that sets uniform margins for cards. 🎉 */
+/* Write a CSS rule that sets padding for a navigation menu. 🗺️ */
+/* Create a CSS rule that applies margin auto to center block elements. 💕 */
+
+/* 🌼 CSS Height/Width 🌼 */
+/* Write a CSS rule to set a fixed height of 300 pixels for a div. 📏 */
+/* Create a CSS rule that sets the width of a container to 100%. 📐 */
+/* Write a CSS rule that uses percentage values for height and width. 🌈 */
+/* Create a CSS rule that applies a minimum width to an element. 📏 */
+/* Write a CSS rule that sets the height of an image to auto while maintaining aspect ratio. 📷 */
+/* Create a CSS rule that uses viewport units for responsive sizing. 📐 */
+/* Write a CSS rule that sets a maximum height for a container. 📏 */
+/* Create a CSS rule that sets both height and width to auto for images. 🖼️ */
+/* Write a CSS rule that applies a specific width to a sidebar. 🔍 */
+/* Create a CSS rule that uses flexbox to adjust height based on content. 🌀 */
+/* Write a CSS rule that sets the width of a button to 50% of its parent. 🔘 */
+/* Create a CSS rule that combines fixed and responsive height/width for a section. 💖 */
+/* Write a CSS rule that applies a height of 100vh to a full-screen section. 📏 */
+/* Create a CSS rule that sets a width of 500 pixels for a modal. 📐 */
+/* Write a CSS rule that sets height and width based on breakpoints. 📱 */
+/* Create a CSS rule that uses CSS variables for dynamic height and width. 🌈 */
+/* Write a CSS rule that adjusts the width of elements in a grid layout. 📏 */
+/* Create a CSS rule that sets the height of a footer to auto based on content. 🖼️ */
+/* Write a CSS rule that sets equal heights for items in a flex container. 💖 */
+/* Create a CSS rule that sets the width of a progress bar based on its value. 📊 */
+
+/* 🌸 CSS Box Model 🌸 */
+/* Write a CSS rule that explains the box model concept. 📦 */
+/* Create a CSS rule to demonstrate the impact of padding on an element's size. 📏 */
+/* Write a CSS rule that sets different values for margin, border, and padding. 🌈 */
+/* Create a CSS rule that visually illustrates the box model using background colors. 🎨 */
+/* Write a CSS rule that sets box-sizing to border-box for all elements. 📏 */
+/* Create a CSS rule that applies a margin to a box model example. 📦 */
+/* Write a CSS rule that combines border, padding, and margin for layout. 🌈 */
+/* Create a CSS rule to demonstrate the effect of changing border width. 📏 */
+/* Write a CSS rule that shows the relationship between width and padding. 🔄 */
+/* Create a CSS rule that uses the outline property to demonstrate differences from border. 🖌️ */
+/* Write a CSS rule that shows how margin collapse affects layout. 📜 */
+/* Create a CSS rule that adjusts the box model based on viewport size. 📱 */
+/* Write a CSS rule to illustrate the content area within the box model. 🎨 */
+/* Create a CSS rule that applies background color to demonstrate padding effects. 🌈 */
+/* Write a CSS rule that sets the margin of child elements to demonstrate nesting. 👶 */
+/* Create a CSS rule that uses flexbox to adjust the box model visually. 🌀 */
+/* Write a CSS rule that applies a transparent border to show content area. 💖 */
+/* Create a CSS rule that uses media queries to adjust box model properties for responsiveness. 📱 */
+/* Write a CSS rule that combines padding and margin to illustrate spacing. 🎉 */
+/* Create a CSS rule that demonstrates the impact of box-shadow on the box model. 🌌 */
+
+/* 🌼 CSS Outline 🌼 */
+/* Write a CSS rule to apply an outline to a focused input element. 🖊️ */
+/* Create a CSS rule that sets different outline styles for buttons. 🎉 */
+/* Write a CSS rule that explains the differences between outlines and borders. 📏 */
+/* Create a CSS rule that applies a dashed outline to a specific class. 🖌️ */
+/* Write a CSS rule that sets the outline offset for a focused element. 📐 */
+/* Create a CSS rule that changes the outline color on hover. 🌈 */
+/* Write a CSS rule that removes the outline for accessibility purposes. ♿ */
+/* Create a CSS rule that combines outlines with background colors for emphasis. 🎨 */
+/* Write a CSS rule that sets the outline width to be thinner than borders. 📏 */
+/* Create a CSS rule that applies a solid outline to all images. 🖼️ */
+/* Write a CSS rule that adjusts the outline based on viewport size. 📱 */
+/* Create a CSS rule that uses outline properties for visual hierarchy. 🌈 */
+/* Write a CSS rule that demonstrates the use of outline for form validation. ✔️ */
+/* Create a CSS rule that uses outline to highlight selected elements. 🎉 */
+/* Write a CSS rule that applies a red outline to indicate an error state. 🚫 */
+/* Create a CSS rule that styles the outline of an active link. 🔗 */
+/* Write a CSS rule that sets a colorful outline around a card on hover. 🌈 */
+/* Create a CSS rule that adjusts outlines for accessibility needs. ♿ */
+/* Write a CSS rule to explain outline shorthand properties. 📏 */
+/* Create a CSS rule that demonstrates how outlines can improve UX. 🌟 */
+
+/* 🌸 CSS Text and Fonts 🌸 */
+/* Write a CSS rule that sets the text alignment for paragraphs to center. 🎯 */
+/* Create a CSS rule that applies text transformation to uppercase. 🔤 */
+/* Write a CSS rule that sets a specific font family for headings. 📖 */
+/* Create a CSS rule that changes the font size of all list items. 📏 */
+/* Write a CSS rule that applies a text shadow to headings. 🌟 */
+/* Create a CSS rule that sets line height for improved readability. 📏 */
+/* Write a CSS rule that applies different font styles based on screen size. 📱 */
+/* Create a CSS rule that changes the font color on hover for links. 🎈 */
+/* Write a CSS rule that uses web fonts from Google Fonts. 🌍 */
+/* Create a CSS rule that sets a font weight for strong emphasis. 💪 */
+/* Write a CSS rule that uses the @font-face rule to include custom fonts. 🔤 */
+/* Create a CSS rule that adjusts font size for responsive design. 📏 */
+/* Write a CSS rule that styles a specific class of text to be italicized. 📖 */
+/* Create a CSS rule that sets a letter spacing for headings. 📏 */
+/* Write a CSS rule that applies a monospace font to code snippets. 💻 */
+/* Create a CSS rule that sets text decoration to underline for links. 🎉 */
+/* Write a CSS rule that uses CSS variables for dynamic font sizes. 🌈 */
+/* Create a CSS rule that styles the first letter of a paragraph. 🔤 */
+/* Write a CSS rule that applies a specific font style to form labels. 📝 */
+/* Create a CSS rule that adjusts font properties based on user preferences. 💖 */
+
+/* 🌼 CSS Fonts 🌼 */
+/* Write a CSS rule to set a specific font family for the entire document. 📜 */
+/* Create a CSS rule that adjusts font size for different heading levels. 📏 */
+/* Write a CSS rule that combines multiple font families for fallback. 🌈 */
+/* Create a CSS rule that uses Google Fonts to apply a custom font. 🌍 */
+/* Write a CSS rule that sets a bold font weight for important text. 💪 */
+/* Create a CSS rule that applies a cursive font to a quote element. 📖 */
+/* Write a CSS rule that uses @import to include external fonts. 📜 */
+/* Create a CSS rule that sets line height for better text spacing. 📏 */
+/* Write a CSS rule that applies different font styles for buttons. 🎀 */
+/* Create a CSS rule that sets a font size for responsiveness. 📏 */
+/* Write a CSS rule that uses a variable font for dynamic adjustments. 🎨 */
+/* Create a CSS rule that styles form elements with consistent fonts. 📏 */
+/* Write a CSS rule that adjusts font properties based on device type. 📱 */
+/* Create a CSS rule that sets the font color for headings. 🎨 */
+/* Write a CSS rule that applies text shadow for emphasis. 🌟 */
+/* Create a CSS rule that combines font properties for improved legibility. 📜 */
+/* Write a CSS rule that sets a specific font style for block quotes. 📖 */
+/* Create a CSS rule that adjusts font size for mobile devices. 📱 */
+/* Write a CSS rule that uses font-display to control font loading. 📜 */
+/* Create a CSS rule that sets a default font for text areas. 🎨 */
+
+/* 🌸 CSS Icons 🌸 */
+/* Write a CSS rule to include an icon font in your project. 📦 */
+/* Create a CSS rule that applies an icon to a button using pseudo-elements. 🎉 */
+/* Write a CSS rule that styles SVG icons within a navigation menu. 🖼️ */
+/* Create a CSS rule that adjusts the size of icon fonts. 📏 */
+/* Write a CSS rule that changes the color of icons on hover. 🌈 */
+/* Create a CSS rule that sets padding around icon buttons for better spacing. 🎀 */
+/* Write a CSS rule that uses Font Awesome icons for social media links. 📱 */
+/* Create a CSS rule that aligns icons with text using Flexbox. 🌀 */
+/* Write a CSS rule that sets different styles for different icon states. 🔄 */
+/* Create a CSS rule that applies a transition effect to icon changes. 🌈 */
+/* Write a CSS rule that uses background images for icons in a list. 🖼️ */
+/* Create a CSS rule that styles icons with a specific color scheme. 🌈 */
+/* Write a CSS rule that sets up icon-only buttons for actions. 🔘 */
+/* Create a CSS rule that adjusts icon size based on viewport dimensions. 📱 */
+/* Write a CSS rule that uses CSS animations to animate icon appearance. 🎉 */
+/* Create a CSS rule that sets icons in a footer for quick links. 📦 */
+/* Write a CSS rule that uses SVG masks for icon styling. 🎨 */
+/* Create a CSS rule that applies hover effects to icon buttons. 🎈 */
+/* Write a CSS rule that uses CSS variables for dynamic icon colors. 🎨 */
+/* Create a CSS rule that uses an icon font as bullet points for lists. 🔹 */
+
+/* 🌼 CSS Links, Lists, and Tables 🌼 */
+/* Write a CSS rule to style all links with a specific color and underline. 🎨 */
+/* Create a CSS rule that changes the color of links on hover. 🌈 */
+/* Write a CSS rule that applies a style to visited links. 📖 */
+/* Create a CSS rule to style ordered lists with custom numbering. 🔢 */
+/* Write a CSS rule that applies custom bullet points to unordered lists. 🔹 */
+/* Create a CSS rule that adjusts the spacing between list items. 📏 */
+/* Write a CSS rule that sets up a table with borders and padding. 🗂️ */
+/* Create a CSS rule to style the header cells of a table. 🌈 */
+/* Write a CSS rule that alternates row colors in a table for better readability. 🎉 */
+/* Create a CSS rule that styles links in a footer differently than those in the main content. 📜 */
+/* Write a CSS rule that uses a hover effect for table rows. 🎈 */
+/* Create a CSS rule that sets text alignment for table data. 📏 */
+/* Write a CSS rule to create a responsive table layout. 🌈 */
+/* Create a CSS rule that applies a background color to list items on hover. 🎉 */
+/* Write a CSS rule that removes the default list styling for an unordered list. 🔄 */
+/* Create a CSS rule that styles table captions. 📖 */
+/* Write a CSS rule that sets padding for links within a navigation bar. 🎀 */
+/* Create a CSS rule that adjusts the font size for links in a sidebar. 📏 */
+/* Write a CSS rule that applies a hover effect to list items. 🎈 */
+/* Create a CSS rule that sets a specific width for table columns. 📏 */
+
+/* 🌸 CSS Layout and Display 🌸 */
+/* Write a CSS rule that sets an element's display property to block. 📜 */
+/* Create a CSS rule that changes an element's display to flex. 🌈 */
+/* Write a CSS rule that uses inline-block to align elements horizontally. 🏞️ */
+/* Create a CSS rule that hides an element using display: none;. 🚫 */
+/* Write a CSS rule that sets a max-width for a container using max-width. 📏 */
+/* Create a CSS rule that positions an element using absolute positioning. 📍 */
+/* Write a CSS rule that sets a sticky position for a header. 📑 */
+/* Create a CSS rule that applies a flexbox layout to a grid of items. 🌈 */
+/* Write a CSS rule that sets up a responsive layout using media queries. 📱 */
+/* Create a CSS rule that uses grid to create a two-column layout. 📐 */
+/* Write a CSS rule that sets overflow: hidden; for a container. 📦 */
+/* Create a CSS rule that uses z-index to manage stacking order. 📏 */
+/* Write a CSS rule that floats elements to the left. 🌊 */
+/* Create a CSS rule that sets a width of 100% for a full-width layout. 🏞️ */
+/* Write a CSS rule that centers an element vertically using flexbox. 🎯 */
+/* Create a CSS rule that uses CSS Grid to create a complex layout. 📜 */
+/* Write a CSS rule that sets a fixed height for a footer using vh units. 📏 */
+/* Create a CSS rule that adjusts element alignment based on screen size. 📱 */
+/* Write a CSS rule that sets up a sidebar layout using flexbox. 🌈 */
+/* Create a CSS rule that combines various display properties for a card layout. 🎉 */
+
+/* 🌼 CSS Advanced Techniques 🌼 */
+/* Write a CSS rule that uses the :nth-child selector to style specific children. 🌈 */
+/* Create a CSS rule that applies opacity to an element using the opacity property. 🌫️ */
+/* Write a CSS rule that creates a navigation bar using flexbox. 🎉 */
+/* Create a CSS rule that styles a dropdown menu on hover. 🌈 */
+/* Write a CSS rule to implement a simple image gallery layout. 📷 */
+/* Create a CSS rule that uses sprites for icon loading. 🎨 */
+/* Write a CSS rule that applies styles based on data attributes using attribute selectors. 🏷️ */
+/* Create a CSS rule that styles form elements with custom designs. 🎨 */
+/* Write a CSS rule that uses CSS counters to number list items automatically. 🔢 */
+/* Create a CSS rule that sets up a responsive website layout using grid. 📐 */
+/* Write a CSS rule that utilizes viewport units for responsive typography. 📏 */
+/* Create a CSS rule that adjusts styles based on device orientation. 📱 */
+/* Write a CSS rule that applies animations to elements on scroll. 🎢 */
+/* Create a CSS rule that combines multiple selectors for styling. 🎀 */
+/* Write a CSS rule that applies styles based on user interaction (focus, hover). 🔄 */
+/* Create a CSS rule that uses calc() to set dynamic widths and heights. 📏 */
+/* Write a CSS rule that sets up a parallax scrolling effect. 🎉 */
+/* Create a CSS rule that uses CSS transitions for smooth state changes. 🌈 */
+/* Write a CSS rule that applies different styles for print media. 🖨️ */
+/* Create a CSS rule that sets a delay on hover effects for buttons. ⏳ */
+
+/* 🌺 CSS Responsive Design 🌺 */
+/* Write a CSS rule that uses media queries to adjust styles for mobile devices. 📱 */
+/* Create a CSS rule that sets the viewport width for responsive design. 🌍 */
+/* Write a CSS rule that uses grid layout for responsive images. 📷 */
+/* Create a CSS rule that adjusts font sizes based on screen width. 📏 */
+/* Write a CSS rule that hides elements on small screens using media queries. 🚫 */
+/* Create a CSS rule that sets different background images for mobile and desktop. 🖼️ */
+/* Write a CSS rule that uses percentages for widths to achieve responsiveness. 📏 */
+/* Create a CSS rule that adjusts button sizes for touch devices. 🔘 */
+/* Write a CSS rule that creates a mobile-first design approach. 📱 */
+/* Create a CSS rule that applies flexbox for responsive layouts. 🌈 */
+/* Write a CSS rule that changes the layout of a sidebar for mobile. 📜 */
+/* Create a CSS rule that uses min-width and max-width for responsive design. 📏 */
+/* Write a CSS rule that applies a grid layout that adapts to screen size. 🌈 */
+/* Create a CSS rule that adjusts the spacing between elements on smaller screens. 📏 */
+/* Write a CSS rule that sets breakpoints for different device sizes. 📏 */
+/* Create a CSS rule that uses calc() for responsive margins and padding. 📏 */
+/* Write a CSS rule that applies different styles based on device orientation. 📱 */
+/* Create a CSS rule that changes the layout for portrait and landscape modes. 🔄 */
+/* Write a CSS rule that uses flex-wrap for responsive elements. 🌈 */
+/* Create a CSS rule that adapts an image gallery layout for different screen sizes. 📷 */
+
+/* 🌸 CSS Grid 🌸 */
+/* Write a CSS rule that defines a grid container for a layout. 📦 */
+/* Create a CSS rule that styles grid items within a container. 🌈 */
+/* Write a CSS rule that sets the number of columns in a grid layout. 📏 */
+/* Create a CSS rule that adjusts the gap between grid items. 🌼 */
+/* Write a CSS rule that defines different row heights in a grid. 📏 */
+/* Create a CSS rule that uses grid-template-areas to define named areas in a grid. 📖 */
+/* Write a CSS rule that changes the grid layout based on screen size. 📱 */
+/* Create a CSS rule that uses grid-auto-flow for item placement. 🎉 */
+/* Write a CSS rule that sets specific grid item sizes. 📏 */
+/* Create a CSS rule that uses media queries to adjust grid properties. 📱 */
+/* Write a CSS rule that places grid items using grid-column and grid-row. 📏 */
+/* Create a CSS rule that defines a responsive grid layout for an image gallery. 📷 */
+/* Write a CSS rule that uses fractional units (fr) for responsive sizing in a grid. 📏 */
+/* Create a CSS rule that aligns grid items vertically and horizontally. 🎯 */
+/* Write a CSS rule that defines grid items to span multiple columns. 🔳 */
+/* Create a CSS rule that sets a fixed height for grid rows. 📏 */
+/* Write a CSS rule that uses minmax() for responsive grid sizes. 📏 */
+/* Create a CSS rule that applies hover effects to grid items. 🌈 */
+/* Write a CSS rule that uses align-self to control individual grid item alignment. 🌟 */
+/* Create a CSS rule that sets up a grid layout for a card-based design. 💖 */
+
+/* 🌼 CSS SASS 🌼 */
+/* Write a SASS rule that demonstrates the use of variables for colors. 🌈 */
+/* Create a SASS rule that applies nesting to style a button within a form. 🧵 */
+/* Write a SASS mixin to create a responsive font size. 📏 */
+/* Create a SASS rule that uses functions to manipulate colors. 🎨 */
+/* Write a SASS rule that demonstrates the use of @import to include styles. 📜 */
+/* Create a SASS rule that defines a placeholder selector for reusable styles. 🔄 */
+/* Write a SASS rule that uses conditionals to apply styles based on a variable. ❓ */
+/* Create a SASS rule that uses loops to generate classes for a grid layout. 🔄 */
+/* Write a SASS rule that demonstrates the use of the @extend feature. 🌈 */
+/* Create a SASS rule that sets up a theme switcher using variables. 🎉 */
+/* Write a SASS rule that combines multiple mixins for complex styles. 🎨 */
+/* Create a SASS rule that uses maps to manage color schemes. 🗺️ */
+/* Write a SASS rule that applies media queries within a mixin. 📱 */
+/* Create a SASS rule that uses calculations to set responsive widths. 📏 */
+/* Write a SASS rule that applies different styles for dark and light themes. 🌗 */
+/* Create a SASS rule that uses a loop to generate multiple button styles. 🔘 */
+/* Write a SASS rule that demonstrates the use of interpolation for dynamic class names. 🔄 */
+/* Create a SASS rule that uses a function to convert units. 🔁 */
+/* Write a SASS rule that demonstrates error handling using @error. ⚠️ */
+/* Create a SASS rule that sets up a card layout using variables and nesting. 🎉 */
+
+/* 🌸 CSS Examples 🌸 */
+/* Write a CSS rule that creates a simple responsive navigation bar. 🎉 */
+/* Create a CSS rule for a hero section with a background image. 🌈 */
+/* Write a CSS rule that styles a footer with social media links. 📦 */
+/* Create a CSS rule for a card layout with hover effects. 🎨 */
+/* Write a CSS rule that styles a contact form with custom input designs. 🖊️ */
+/* Create a CSS rule that sets up a responsive grid layout for an image gallery. 📷 */
+/* Write a CSS rule that applies a modal dialog with transitions. 🎉 */
+/* Create a CSS rule for a blog post with a featured image and text styling. 📝 */
+/* Write a CSS rule that styles a pricing table with alternating colors. 💰 */
+/* Create a CSS rule for a testimonial section with quotes and author names. 📜 */
+/* Write a CSS rule that styles a countdown timer for promotions. ⏳ */
+/* Create a CSS rule for a loading spinner with animations. 🎢 */
+/* Write a CSS rule that styles a simple product card with hover effects. 🎉 */
+/* Create a CSS rule for an FAQ section with collapsible answers. 📚 */
+/* Write a CSS rule that styles a newsletter signup form. 📝 */
+/* Create a CSS rule for a grid layout with responsive items. 🌈 */
+/* Write a CSS rule that applies a unique style to headings in a blog. 📖 */
+/* Create a CSS rule that styles a sidebar with links and widgets. 📜 */
+/* Write a CSS rule that creates a gallery with lightbox effects. 🖼️ */
+/* Create a CSS rule for a user profile card with avatar and bio. 👤 */
+
+/* 🌼 CSS References 🌼 */
+/* Write a CSS rule that uses the font-size property as a reference. 🔍 */
+/* Create a CSS rule that demonstrates the use of the background shorthand. 🌈 */
+/* Write a CSS rule that references the color property for text styling. 🎨 */
+/* Create a CSS rule that uses the border property as a reference. 📏 */
+/* Write a CSS rule that demonstrates the use of the margin property. 📏 */
+/* Create a CSS rule that references the padding property for spacing. 🎀 */
+/* Write a CSS rule that uses the display property for layout. 📜 */
+/* Create a CSS rule that demonstrates the position property for elements. 📍 */
+/* Write a CSS rule that references the width and height properties. 📐 */
+/* Create a CSS rule that uses the overflow property to manage content. 📦 */
+/* Write a CSS rule that demonstrates the use of CSS transitions for smooth effects. 🌈 */
+/* Create a CSS rule that references the flex property in a flexbox layout. 🌈 */
+/* Write a CSS rule that uses the grid property for creating grids. 📦 */
+/* Create a CSS rule that demonstrates the use of the opacity property. 🌫️ */
+/* Write a CSS rule that references the transform property for animations. 🎨 */
+/* Create a CSS rule that uses the filter property for visual effects. 🖼️ */
+/* Write a CSS rule that references media queries for responsive design. 📱 */
+/* Create a CSS rule that uses the calc() function for dynamic calculations. 📏 */
+/* Write a CSS rule that demonstrates the use of CSS variables for consistency. 🌈 */
+/* Create a CSS rule that references the text-shadow property for depth. 🌌 */
