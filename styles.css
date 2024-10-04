@@ -1,13 +1,41 @@
 /* What is CSS, and how does it enhance web design? ✨ */
 /* Write a simple CSS rule that changes the background color of the body to light blue. 💙 */
+
+body{
+    background-color: lightblue;
+}
+
 /* Explain the importance of CSS in responsive web design. 📱 */
 /* Create a CSS rule to set the font family of all paragraphs to Arial. ✍️ */
+
+.p1{
+    font-family: Arial;
+}
+
 /* How can CSS be used to improve website loading times? ⏳ */
 /* Write a CSS rule to center a heading both horizontally and vertically. 🎯 */
+
+h1{
+    text-align: center;
+    vertical-align: middle;
+}
+
 /* Describe how CSS separates content from presentation. 📖 */
 /* Write a CSS rule to change the text color of all links to purple. 💜 */
+
+a{
+    color: purple;
+}
+
 /* What are the benefits of using external CSS stylesheets? 📂 */
 /* Write a CSS rule that applies a border to all images. 🖼️ */
+
+.image-border {
+    border: 5px solid #000; /* 5px solid black border */
+    border-radius: 10px;
+}/*not complete
+
+
 /* Explain the role of CSS preprocessors and give an example. 🧩 */
 /* Write a CSS rule to make all buttons have rounded corners. 🔘 */
 /* What is the impact of CSS on accessibility in web development? ♿ */
